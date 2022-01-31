@@ -10,7 +10,7 @@ function Home() {
   return (
     <Fragment>
       <div className="page-header" style={{ overflow: "auto", backgroundColor:"#eee22a" }}>
-        <div className="section blogs-2" id="blogs-2">
+        <div className="section blogs-2" id="blogs-2"> 
           <div className="container-fluid" style={{ paddingTop: "100px" }}>
 
             <h1 className="butteyes-title-header" style={{ textAlign: "center" }}>
