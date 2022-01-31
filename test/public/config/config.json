@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x908D48aa8d09a3B40Fd4Eb922B79562905a8c3Ba",
+  "SCAN_LINK": "https://polygonscan.com/token/0x908D48aa8d09a3B40Fd4Eb922B79562905a8c3Ba",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "BUTTEYES",
+  "SYMBOL": "OO",
+  "MAX_SUPPLY": 100,
+  "WEI_COST": 220000000000000000,
+  "DISPLAY_COST": 0.22,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/butteyes",
+  "SHOW_BACKGROUND": true
+}

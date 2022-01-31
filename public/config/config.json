@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xf6B9C1E41a883A01aa0bCcB20F38182a0FCE5533",
+  "SCAN_LINK": "https://polygonscan.com/token/0xf6B9C1E41a883A01aa0bCcB20F38182a0FCE5533",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "CYBE",
+  "SYMBOL": "CYBE",
+  "MAX_SUPPLY": 500,
+  "WEI_COST": 220000000000000000,
+  "DISPLAY_COST": 0.22,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/cybe",
+  "SHOW_BACKGROUND": true
+}
