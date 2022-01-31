@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/blk-design-system.css";
+// import "../assets/css/blk-design-system.css";
 
 import Opensea from "../assets/img/opensea.png";
 import Twitter from "../assets/img/twitter.png";

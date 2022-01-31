@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../assets/css/blk-design-system.css";
+// import "../assets/css/blk-design-system.css";
 import Logooo from "../assets/img/logo.png";
 import Diamond from "../assets/img/Diamond.png";
 import Silver from "../assets/img/Silver.png";
