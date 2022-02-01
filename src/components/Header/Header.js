@@ -18,7 +18,6 @@ function Header() {
             rel="tooltip"
             title="ButtEyes"
             data-placement="bottom"
-            target="_blank"
           >
             <img src="../config/images/logo.png" style={{width:"45px"}}/>
           </a>
