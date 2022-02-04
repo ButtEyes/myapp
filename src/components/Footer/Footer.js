@@ -31,12 +31,12 @@ function Footer() {
           <div className="col-md-3">
             <ul className="nav">
               <li className="nav-item">
-                <a href="https://creative-tim.com/contact-us" className="nav-link butteyes-bold-text">
+                <a href="https://opensea.io/ButtEyesNFT" className="nav-link butteyes-bold-text">
                   Opensea
                 </a>
               </li>
               <li className="nav-item">
-                <a href="https://creative-tim.com/about-us" className="nav-link butteyes-bold-text">
+                <a href="#" className="nav-link butteyes-bold-text">
                   Telegram
                 </a>
               </li>
