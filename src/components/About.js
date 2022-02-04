@@ -4,33 +4,47 @@ import Diamond from "../assets/img/Diamond.png";
 import Silver from "../assets/img/Silver.png";
 import Gold from "../assets/img/Gold.jpg";
 import Bronze from "../assets/img/Bronze.png";
+import Roadmap from "../assets/img/roadmap.JPEG";
 
 function About() {
   return (
     <Fragment>
-      <div className="page-header" style={{ overflow: "auto",backgroundColor:"#eee22a" }}>
+      <div className="page-header" style={{ backgroundColor: "#eee22a" }}>
         <div className="section blogs-2" id="blogs-2">
           <div className="section">
             <div className="container">
               <div className="row justify-content-between align-items-center">
                 <div className="col-lg-5 mb-5 mb-lg-0 ">
-                <h1 className="butteyes-title-header" style={{ textAlign: "center" }}>
-            <img src={Logooo} className="butteyes-eyes-logos" /> ButtEyes 
-              <br />
-              <span className="butteyes-light-text" style={{fontSize:"50px", textAlign:"center"}}>More info!!</span>
-            </h1>
-                  <p className="mt-4 butteyes-light-text" style={{color:"black"}}>
-                    ButtEyes is an NFT collection created without the use of AI
-                    to evoke a sense of unique themes not found in most
+                  <h1
+                    className="butteyes-title-header"
+                    style={{ textAlign: "center", color: "white" }}
+                  >
+                    <img src={Logooo} className="butteyes-eyes-logos" />{" "}
+                    ButtEyes
+                    <br />
+                    <span
+                      className="butteyes-light-text"
+                      style={{
+                        fontSize: "50px",
+                        textAlign: "center",
+                        fontFamily: "Modak",
+                      }}
+                    >
+                      More info!!
+                    </span>
+                  </h1>
+                  <p
+                    className="mt-4 butteyes-light-text"
+                    style={{ color: "black" }}
+                  >
+                    ButtEyes is an NFT collection created for the Lock Screen of
+                    our phones. We created ButtEyes without the use of AI to
+                    evoke a sense of unique themes which is not found in most
                     collections on the market. In the near future we will be
-                    releasing 10 additional collections, each unique in its own
+                    releasing 5 additional collections, each unique in its own
                     way. With ButtEyes, we aim to create a new premium market
-                    for personalized wallpapers and phone cases. Once the
-                    ButtEyes Team has released all 10 parts of the collection,
-                    it will be a closed community that you can only enter with
-                    insider references. The reference number of each NFT owner
-                    will vary based on the version of NFTs they have. Be one of
-                    the first to take your place in this new market!!
+                    for exclusive wallpapers and phone cases. Be one of the
+                    first to take your place in this new journey!!
                   </p>
                   <a
                     href="/"
@@ -67,7 +81,7 @@ function About() {
                                   href="#link51"
                                   role="tablist"
                                 >
-                                  Mission
+                                  Our Mission and Goals
                                 </a>
                               </li>
                               <li className="nav-item">
@@ -84,76 +98,30 @@ function About() {
                           </div>
                           <div className="col-md-8">
                             <div className="tab-content">
-                              <div className="tab-pane active butteyes-light-text" id="link41" style={{color:"black"}}>
-                              As ButtEyes, our goal is to help you show the
-                                attention they deserve to our phones, which have
-                                become the center of our lives. While doing
-                                this, we decided to make it difficult to access
-                                our products in order not to lose the premium
-                                feel. For this reason, ButtEyes will have a
-                                customer group that can only be entered by
-                                reference, except for the pre-sale. ButtEyes
-                                product sales will be carried out in 2 stages
-                                according to our plans. A 10-episode OpenSea
-                                sale period followed by a market sale for a
-                                limited time. We will define referral codes that
-                                allow everyone who makes a purchase in sales in
-                                our OpenSea store to participate in the market
-                                sale according to the version of the NFT
-                                purchased. These codes will be the only
-                                opportunity for those who do not make purchases
-                                in the OpenSea pre-sale, but want to become our
-                                customers and be included in this elite group.
-                                Our pre-sale customers will be rewarded with
-                                other advantages apart from these reference
-                                codes. Early access to new collections that the
-                                ButtEyes team will reveal in the future is just
-                                one of these opportunities. Our customers, who
-                                participate in the market sale with a reference
-                                code, will have the right to purchase one of
-                                each product sold. Thus, we plan to preserve our
-                                distinguished clientele and rarity. The tags for
-                                pre-sale and market sale items will be different
-                                from each other. Take your place in this new
-                                market!
+                              <div
+                                className="tab-pane active butteyes-light-text"
+                                id="link41"
+                                style={{ color: "black" }}
+                              >
+                                <a
+                                  href="#"
+                                  data-toggle="modal"
+                                  data-target=".bd-example-modal-lg"
+                                >
+                                  <img src={Roadmap} />
+                                </a>
                               </div>
-                              <div className="tab-pane butteyes-light-text" style={{color:"black"}} id="link51">
-                              Our mission is to be a pioneer in the creation of a market that can provide a personalized premium feel to our phones, which have become the indispensable center of our lives.
+                              <div
+                                className="tab-pane butteyes-light-text"
+                                style={{ color: "black" }}
+                                id="link51"
+                              >
+                                As the ButtEyes team, our main mission is to create the customizable accessory market they deserve for our phones, which have become the indispensable center of our lives. While doing this, we made our customer group accessible only with reference codes, except for pre-sales, in order to maintain the premium feel. Thus, we tried to increase the investment value of our products and increase the interest in our project. One of the natural benefits of our project is that we can use phone cases and many other accessories as certificates of authenticity of purchased NFTs. Our customer, who makes a purchase from our pre-sales, will have access to a reference code that he can use in the pre-sale of the next release, as well as other reference codes, the number of which may vary depending on the version he buys. Using these referral codes you can put your friends, family or a Metamask thief in exchange for money. NFT owners who have purchased a diamond version NFT from the pre-sales and have it in their wallet on the day of decision will have a one-time free phone case. People who had the NFT in the transfers made until the decision day cannot benefit from this. In the next process, each of our customers who define their NFT on our website will be able to request their authenticity certificates for a fee, regardless of the version. So none of your friends will be able to put the NFT you bought on their wallpaper and say "I own it now". Our biggest goal for the future is to open our first physical store where our customers can personalize according to their wishes, create ButtEyes and NFTs of other collections to be created by the ButtEyes team and have their certificates, to make owning an NFT mean something other than the already existing reasons. No planting trees, no donations, no apes, no pixels, just 👀.
                               </div>
-                              <div className="tab-pane" id="link61">
-                                <ul>
-                                  <li className="butteyes-light-text" style={{color:"black"}}>
-                                   - Every customer who makes a purchase during
-                                    the OpenSea sale period will be entitled to
-                                    have the same labeled phone case as the NFT
-                                    they have at the end of the 10-part pre-sale
-                                    period, free of charge. This will be the
-                                    only way to reach phone cases with the
-                                    pre-sale label.(The phone cases which will
-                                    be sold in market sale are going to be
-                                    labeled as market sale versions.) We aim to
-                                    use phone cases as an authenticity
-                                    certificate for your purchased NFTs.
-                                  </li>
-                                  <br/>
-                                  <li className="butteyes-light-text" style={{color:"black"}}>
-                                   - Every OpenSea sale period customer gets a 
-                                    free reference code to be included in the
-                                    next ButtEyes Team related market sale.
-                                  </li>
-                                  <br/>
-                                  <li className="butteyes-light-text" style={{color:"black"}}>
-                                   - Each OpenSea sale period customer is
-                                    rewarded with the reference codes required
-                                    to be included in the market sale. Owners of
-                                    the gold version are entitled to 10 referral
-                                    codes, and owners of the silver version are
-                                    entitled to 2 referral codes. With these
-                                    codes, you can bring your loved ones in or
-                                    you can just sell them to people who want to
-                                    join the club.
-                                  </li>
-                                </ul>
+                              <div className="tab-pane butteyes-light-text" style={{ color: "black" }} id="link61">
+                              Every customer who makes a purchase during the public mint period will have reference codes, the number of which varies according to the version they have. These reference codes will act as a whitelist in the next release. Diamond version will be rewarded with 4 reference codes, gold version with 3, silver version with 2 and bronze version with 1 reference code.
+Diamond version holders will be able to have the authenticity certificates (phone cases) of the NFT they held on the day of decision, free of charge. Owners of other versions will be able to get their certificates(phone cases) from the online sales to be opened, but this process will be opened to our customers in the rarity order. Apart from that, we will send the gold version owners the poster of their NFT. Join us!
+
                               </div>
                             </div>
                           </div>
@@ -163,7 +131,11 @@ function About() {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <div id="carouselExampleControls" className="carousel slide" style={{padding:"100px", marginBottom:"165px"}}>
+                  <div
+                    id="carouselExampleControls"
+                    className="carousel slide"
+                    style={{ padding: "100px", marginBottom: "165px" }}
+                  >
                     <div className="carousel-inner">
                       <div className="carousel-item">
                         <img
@@ -177,6 +149,13 @@ function About() {
                           className="d-block w-100"
                           src={Gold}
                           alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          className="d-block w-100"
+                          src={Silver}
+                          alt="Third slide"
                         />
                       </div>
                       <div class="carousel-item">
@@ -214,6 +193,19 @@ function About() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade bd-example-modal-lg"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <img src={Roadmap} />
             </div>
           </div>
         </div>

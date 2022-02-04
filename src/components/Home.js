@@ -9,14 +9,14 @@ import Bronze from "../assets/img/Bronze.png";
 function Home() {
   return (
     <Fragment>
-      <div className="page-header" style={{ overflow: "auto", backgroundColor:"#eee22a" }}>
+      <div className="page-header" style={{ backgroundColor:"#eee22a" }}>
         <div className="section blogs-2" id="blogs-2"> 
           <div className="container-fluid" style={{ paddingTop: "100px" }}>
 
             <h1 className="butteyes-title-header" style={{ textAlign: "center" }}>
             <img src={Logooo} className="butteyes-eyes-logos" /> ButtEyes <img src={Logooo} className="butteyes-eyes-logos" />
               <br />
-              <span className="butteyes-light-text" style={{fontSize:"50px", textAlign:"center"}}>We actually have a purpose!!</span>
+              <span className="butteyes-light-text" style={{fontSize:"50px", textAlign:"center", fontFamily:"Modak"}}>We actually have a purpose!!</span>
             </h1>
             
 

@@ -25,7 +25,7 @@ function ContactUs() {
                   <div className="col-md-4">
                     <div className="info info-hover">
                       <div className="icon icon-primary">
-                        <a href="https://opensea.io/collection/butteyes" target="_blank">
+                        <a href="https://opensea.io/ButtEyesNFT" target="_blank">
                                          <img
                           className="bg-blob"
                           src={Opensea}

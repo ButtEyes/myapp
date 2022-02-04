@@ -94,7 +94,7 @@ function Header() {
                 rel="tooltip"
                 title="Follow us on Opensea"
                 data-placement="bottom"
-                href="https://opensea.io/collection/butteyes"
+                href="https://opensea.io/ButtEyesNFT"
                 target="_blank"
               >
                 <img src={OpenseaImage} width={"30px"}/>

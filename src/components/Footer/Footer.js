@@ -65,7 +65,7 @@ function Footer() {
               </a>
               <a
                 target="_blank"
-                href="https://opensea.io/collection/butteyes"
+                href="https://opensea.io/ButtEyesNFT"
                 className="btn btn-icon btn-neutral  btn-round btn-simple"
                 data-toggle="tooltip"
                 data-original-title="Follow us"
