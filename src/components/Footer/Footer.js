@@ -7,7 +7,9 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <a href="/"></a>
+            <a href="/">
+            <img src="../config/images/logo.png" style={{width:"145px"}}/>
+            </a>
           </div>
           <div className="col-md-3">
             <ul className="nav">
