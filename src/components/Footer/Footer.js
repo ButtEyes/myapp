@@ -1,5 +1,5 @@
 import React from "react";
-import OpenseaImage from '../../assets/img/opensea.png'
+import OpenseaImage from "../../assets/img/opensea.png";
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-          <img src="../config/images/logo.png" style={{width:"145px"}}/>
+            <a href="/"></a>
           </div>
           <div className="col-md-3">
             <ul className="nav">
@@ -31,7 +31,10 @@ function Footer() {
           <div className="col-md-3">
             <ul className="nav">
               <li className="nav-item">
-                <a href="https://opensea.io/ButtEyesNFT" className="nav-link butteyes-bold-text">
+                <a
+                  href="https://opensea.io/ButtEyesNFT"
+                  className="nav-link butteyes-bold-text"
+                >
                   Opensea
                 </a>
               </li>
@@ -70,7 +73,7 @@ function Footer() {
                 data-toggle="tooltip"
                 data-original-title="Follow us"
               >
-                 <img src={OpenseaImage} width={"38px"}/>
+                <img src={OpenseaImage} width={"38px"} />
               </a>
             </div>
           </div>
