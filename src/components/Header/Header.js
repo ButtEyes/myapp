@@ -1,8 +1,8 @@
 import React from "react";
 // import '../../assets/css/blk-design-system.min.css'
-import '../../assets/css/font-awesome.min.js'
-import OpenseaImage from '../../assets/img/opensea.png'
-import {Link} from 'react-router-dom'
+import "../../assets/css/font-awesome.min.js";
+import OpenseaImage from "../../assets/img/opensea.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -19,7 +19,7 @@ function Header() {
             title="ButtEyes"
             data-placement="bottom"
           >
-            <img src="../config/images/logo.png" style={{width:"45px"}}/>
+            <img src="../config/images/logo.png" style={{ width: "45px" }} />
           </a>
           <button
             className="navbar-toggler navbar-toggler"
@@ -29,7 +29,6 @@ function Header() {
             aria-controls="navigation-index"
             aria-expanded="false"
             aria-label="Toggle navigation"
-           
           >
             <span className="navbar-toggler-bar bar1"></span>
             <span className="navbar-toggler-bar bar2"></span>
@@ -43,7 +42,10 @@ function Header() {
           <div className="navbar-collapse-header">
             <div className="row">
               <div className="col-6 collapse-brand">
-              <img src="../config/images/logo.png" style={{width:"45px"}}/>
+                <img
+                  src="../config/images/logo.png"
+                  style={{ width: "45px" }}
+                />
               </div>
               <div className="col-6 collapse-close text-right">
                 <button
@@ -54,7 +56,7 @@ function Header() {
                   aria-controls="navigation-index"
                   aria-expanded="false"
                   aria-label="Toggle navigation"
-                  style={{backgroundColor:"azure"}}
+                  style={{ backgroundColor: "azure" }}
                 >
                   <i className="tim-icons icon-simple-remove"></i>
                 </button>
@@ -62,7 +64,9 @@ function Header() {
             </div>
           </div>
           <ul className="navbar-nav">
-            <li className="nav-item p-0">
+            <li className="nav-item p-0" style={{    backgroundColor: "black",
+    borderRadius: "25px",
+    marginRight: "10px"}}>
               <a
                 className="nav-link"
                 rel="tooltip"
@@ -71,24 +75,31 @@ function Header() {
                 href="https://twitter.com/ButtEyesNFT"
                 target="_blank"
               >
-                <i className="fab fa-twitter" style={{fontSize:"30px"}}></i>
+                <i className="fab fa-twitter" style={{ fontSize: "30px" }}></i>
                 <p className="d-lg-none d-xl-none">Twitter</p>
               </a>
             </li>
-            <li className="nav-item p-0">
+            <li
+              className="nav-item p-0"
+              style={{
+                backgroundColor: "black",
+                borderRadius: "25px",
+                marginRight: "10px"
+              }}
+            >
               <a
                 className="nav-link"
                 rel="tooltip"
-                title="Like us on Instagram"
+                title="Like us on Discord"
                 data-placement="bottom"
-                href="https://instagram.com/butteyesnft"
+                href="https://discord.gg/4dksyY9eUG"
                 target="_blank"
               >
-                <i className="fab fa-instagram" style={{fontSize:"30px"}}></i>
-                <p className="d-lg-none d-xl-none">Instagram</p>
+                <i className="fab fa-discord" style={{ fontSize: "30px" }}></i>
+                <p className="d-lg-none d-xl-none">Discord</p>
               </a>
             </li>
-            <li className="nav-item p-0">
+            {/* <li className="nav-item p-0">
               <a
                 className="nav-link"
                 rel="tooltip"
@@ -100,7 +111,7 @@ function Header() {
                 <img src={OpenseaImage} width={"30px"}/>
                 <p className="d-lg-none d-xl-none">Opensea</p>
               </a>
-            </li>
+            </li> */}
             {/* <li className="nav-item p-0">
               <a
                 className="nav-link"
@@ -115,7 +126,10 @@ function Header() {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link butteyes-bold-text background-butteyes-menu" href="about">
+              <a
+                className="nav-link butteyes-bold-text background-butteyes-menu"
+                href="about"
+              >
                 About Us
               </a>
             </li>

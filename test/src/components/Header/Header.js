@@ -87,13 +87,13 @@ function Header() {
               <a
                 className="nav-link"
                 rel="tooltip"
-                title="Follow us on Instagram"
+                title="Follow us on Discord"
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://discord.gg/4dksyY9eUG"
                 target="_blank"
               >
-                <i className="fab fa-instagram"></i>
-                <p className="d-lg-none d-xl-none">Instagram</p>
+                <i className="fab fa-discord"></i>
+                <p className="d-lg-none d-xl-none">Discord</p>
               </a>
             </li>
             <li className="nav-item">

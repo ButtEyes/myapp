@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 // import "../assets/css/blk-design-system.css";
 import Logooo from "../assets/img/logo.png";
-import Diamond from "../assets/img/Diamond.png";
-import Silver from "../assets/img/Silver.png";
-import Gold from "../assets/img/Gold.jpg";
-import Bronze from "../assets/img/Bronze.png";
+import Diamond from "../assets/img/800.png";
+import Silver from "../assets/img/565.png";
+import Gold from "../assets/img/957.png";
+import Bronze from "../assets/img/1115.png";
 
 function Home() {
   return (
@@ -30,12 +30,7 @@ function Home() {
                   </div>
                   <div className="card-body">
                     <div className="content-bottom">
-                      <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>Mint Diamond Edition</h6>
-                      <a href="MintingDiamond">
-                        <h3 className="card-title text-default">
-                          1/100 One of a kind!!
-                        </h3>
-                      </a>
+                      <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>ButtEyes #800</h6>
                     </div>
                   </div>
                 </div>
@@ -50,12 +45,8 @@ function Home() {
                   </div>
                   <div className="card-body">
                     <div className="content-bottom">
-                      <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>Mint Gold Edition</h6>
-                      <a href="javascript:;">
-                        <h3 className="card-title text-default">
-                          1/500 Very rare with advantages!
-                        </h3>
-                      </a>
+                    <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>ButtEyes #565</h6>
+
                     </div>
                   </div>
                 </div>
@@ -70,12 +61,8 @@ function Home() {
                   </div>
                   <div className="card-body">
                     <div className="content-bottom">
-                      <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>Mint Silver Edition</h6>
-                      <a href="javascript:;">
-                        <h3 className="card-title text-default">
-                          1/1000 Best way to showoff..
-                        </h3>
-                      </a>
+                    <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>ButtEyes #957</h6>
+
                     </div>
                   </div>
                 </div>
@@ -90,12 +77,8 @@ function Home() {
                   </div>
                   <div className="card-body">
                     <div className="content-bottom">
-                      <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>Mint Bronze Edition</h6>
-                      <a href="javascript:;">
-                        <h3 className="card-title text-default">
-                          1/3000 Gets you into the club.
-                        </h3>
-                      </a>
+                    <h6 className="card-category" style={{fontSize:"18px", color:"black"}}>ButtEyes #1115</h6>
+
                     </div>
                   </div>
                 </div>

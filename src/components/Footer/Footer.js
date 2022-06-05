@@ -34,15 +34,15 @@ function Footer() {
             <ul className="nav">
               <li className="nav-item">
                 <a
-                  href="https://opensea.io/ButtEyesNFT"
+                  href="https://twitter.com/butteyesnft"
                   className="nav-link butteyes-bold-text"
                 >
-                  Opensea
+                  Twitter
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link butteyes-bold-text">
-                  Telegram
+                <a href="https://discord.gg/4dksyY9eUG" className="nav-link butteyes-bold-text">
+                  Discord
                 </a>
               </li>
             </ul>
@@ -53,7 +53,7 @@ function Footer() {
               <a
                 target="_blank"
                 href="https://twitter.com/butteyesnft"
-                className="btn btn-icon btn-neutral btn-round btn-simple"
+                className="btn btn-icon btn-neutral mr-2 btn-round btn-simple"
                 data-toggle="tooltip"
                 data-original-title="Follow us"
               >
@@ -61,14 +61,14 @@ function Footer() {
               </a>
               <a
                 target="_blank"
-                href="https://instagram.com/butteyesnft"
+                href="https://discord.gg/4dksyY9eUG"
                 className="btn btn-icon btn-neutral btn-round btn-simple"
                 data-toggle="tooltip"
                 data-original-title="Like us"
               >
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-discord"></i>
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 href="https://opensea.io/ButtEyesNFT"
                 className="btn btn-icon btn-neutral  btn-round btn-simple"
@@ -76,7 +76,7 @@ function Footer() {
                 data-original-title="Follow us"
               >
                 <img src={OpenseaImage} width={"38px"} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

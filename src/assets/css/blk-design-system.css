@@ -13989,7 +13989,7 @@ img {
 .navbar-nav li i {
   vertical-align: middle;
   font-size: 18px;
-  padding-right: 5px;
+  /* padding-right: 5px; */
 }
 
 .navbar-collapse-header {

@@ -1,9 +1,9 @@
 import React from "react";
 // import "../assets/css/blk-design-system.css";
 
-import Opensea from "../assets/img/opensea.png";
+import Discord from "../assets/img/discord.png";
 import Twitter from "../assets/img/twitter.png";
-import Metamask from "../assets/img/metamask.png";
+import Solscan from "../assets/img/solscan.png";
 
 
 function ContactUs() {
@@ -28,14 +28,14 @@ function ContactUs() {
                         <a href="https://opensea.io/ButtEyesNFT" target="_blank">
                                          <img
                           className="bg-blob"
-                          src={Opensea}
+                          src={Discord}
                           style={{maxWidth:"80%"}}
                         />
                         <i className="tim-icons icon-user-run"></i>
                         </a>
          
                       </div>
-                      <h4 className="info-title butteyes-bold-text" style={{color:"#020308" }}>Opensea</h4>
+                      <h4 className="info-title butteyes-bold-text" style={{color:"#020308" }}>Discord</h4>
                       <p className="description butteyes-light-text" style={{color:"#020308" }}>
                         You can reach from Opensea
                       </p>
@@ -47,14 +47,14 @@ function ContactUs() {
                         <a href="#" target="_blank">
                           <img
                           className="bg-blob"
-                          src={Metamask}
+                          src={Solscan}
                           style={{maxWidth:"80%"}}
                         />
                         <i className="tim-icons icon-atom"></i>
                         </a>
                         
                       </div>
-                      <h4 className="info-title butteyes-bold-text" style={{color:"#020308" }}>Metamask</h4>
+                      <h4 className="info-title butteyes-bold-text" style={{color:"#020308" }}>Solscan</h4>
                       <p className="description butteyes-light-text" style={{color:"#020308" }}>
                         You can check Contract Address
                       </p>
