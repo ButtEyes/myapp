@@ -64,9 +64,7 @@ function Header() {
             </div>
           </div>
           <ul className="navbar-nav">
-            <li className="nav-item p-0" style={{    backgroundColor: "black",
-    borderRadius: "25px",
-    marginRight: "10px"}}>
+            <li className="nav-item p-0">
               <a
                 className="nav-link"
                 rel="tooltip"
@@ -79,14 +77,7 @@ function Header() {
                 <p className="d-lg-none d-xl-none">Twitter</p>
               </a>
             </li>
-            <li
-              className="nav-item p-0"
-              style={{
-                backgroundColor: "black",
-                borderRadius: "25px",
-                marginRight: "10px"
-              }}
-            >
+            <li className="nav-item p-0">
               <a
                 className="nav-link"
                 rel="tooltip"

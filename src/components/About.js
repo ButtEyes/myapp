@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Logooo from "../assets/img/logo.png";
+import ButtEyes from "../assets/img/butteyesfont.png";
 
 import Diamond from "../assets/img/800.png";
 import DiamondYdd from "../assets/img/794.png";
@@ -20,33 +21,32 @@ function About() {
           <div className="section">
             <div className="container">
               <div className="row justify-content-between align-items-center">
-                <div className="col-lg-5 mb-5 mb-lg-0 ">
-                  <h1
-                    className="butteyes-title-header"
-                    style={{ textAlign: "center", color: "white" }}
+                <div className="col-lg-5 mb-5 mb-lg-0 text-center ">
+                  <img src={Logooo} width="50%" /> <br />
+                  <img src={ButtEyes} /> <br />
+                  <span
+                    className="butteyes-light-text"
+                    style={{
+                      fontSize: "50px",
+                      textAlign: "center",
+                      fontFamily: "Modak"
+                    }}
                   >
-                    <img src={Logooo} className="butteyes-eyes-logos" />{" "}
-                    ButtEyes
-                    <br />
-                    <span
-                      className="butteyes-light-text"
-                      style={{
-                        fontSize: "50px",
-                        textAlign: "center",
-                        fontFamily: "Modak",
-                      }}
-                    >
-                      More info!!
-                    </span>
-                  </h1>
+                    More info!!
+                  </span>
                   <p
                     className="mt-4 butteyes-light-text"
                     style={{ color: "black" }}
                   >
-                    We will be realeasing 2 additional collections 
+                    ButtEyes is a collection of NFTs which are created without
+                    using AI to invoke the sense of unique themes which most
+                    collections on market lack. In the near future we re going
+                    to release 2 additional collections which are all unique in
+                    their own way. With ButtEyes we aim to create a premium
+                    market for individual special wallpapers and phone cases.
                   </p>
                   <a
-                    href="/"
+                    href="https://mintapp.vercel.app/"
                     className="btn btn-warning-butteyes mt-4 butteyes-bold-text"
                   >
                     Mint ButtEyes
@@ -115,10 +115,62 @@ function About() {
                                 style={{ color: "black" }}
                                 id="link51"
                               >
-                               As the ButtEyes team, our main mission is to create the customizable accessory market they deserve for our phones, which have become the indispensable center of our lives. While doing this, we made our customer group semi-accessible with reference codes, in order to maintain the premium feel. Thus, we tried to increase the investment value of our products and increase the interest in our project. One of the natural benefits of our project is that we can use phone cases and many other accessories as certificates of authenticity of purchased NFTs. Our customer, who makes a purchase from our minting sales, will have access to a reference code that they can use in the minting sales of the next release, as well as other reference codes, the number of which can may vary depending on the version they get. Using these referral codes you can put your friends family or a wallet thief into this community. NFT owners who minted a NFT with Diamond Tag and an Epic Frame will get a one-time free Buttie Phone Case which will become their NFTs authenticity certificates. People who had the NFT in the transfers made until the day of decision will not be able to benefit from this. You have to have it on your wallet on the day of decision. In the next step, each of our customers who define their NFT on our website will be able to request their Buttie Phone Case (Authenticity Certificates) for a small fee, regardless of the version. So none of your friends will be able to put the NFT you bought on their wallpaper and say “I own it now”. Our biggest goal for the future is to open our first physical store where our customers can personalize according to their wishes, create ButtEyes and NFTs of other collections to be created by the ButtEyes team and have their certificates, to make owning an NFT mean something other than the already existing reasons. No planting trees, no donations, no apes, no pixels, just👀.
+                                As the ButtEyes team, our main mission is to
+                                create the customizable accessory market they
+                                deserve for our phones, which have become the
+                                indispensable center of our lives. While doing
+                                this, we made our customer group semi-accessible
+                                with reference codes, in order to maintain the
+                                premium feel. Thus, we tried to increase the
+                                investment value of our products and increase
+                                the interest in our project. One of the natural
+                                benefits of our project is that we can use phone
+                                cases and many other accessories as certificates
+                                of authenticity of purchased NFTs. Our customer,
+                                who makes a purchase from our minting sales,
+                                will have access to a reference code that they
+                                can use in the minting sales of the next
+                                release, as well as other reference codes, the
+                                number of which can may vary depending on the
+                                version they get. Using these referral codes you
+                                can put your friends family or a wallet thief
+                                into this community. NFT owners who minted a NFT
+                                with Diamond Tag and an Epic Frame will get a
+                                one-time free Buttie Phone Case which will
+                                become their NFTs authenticity certificates.
+                                People who had the NFT in the transfers made
+                                until the day of decision will not be able to
+                                benefit from this. You have to have it on your
+                                wallet on the day of decision. In the next step,
+                                each of our customers who define their NFT on
+                                our website will be able to request their Buttie
+                                Phone Case (Authenticity Certificates) for a
+                                small fee, regardless of the version. So none of
+                                your friends will be able to put the NFT you
+                                bought on their wallpaper and say “I own it
+                                now”. Our biggest goal for the future is to open
+                                our first physical store where our customers can
+                                personalize according to their wishes, create
+                                ButtEyes and NFTs of other collections to be
+                                created by the ButtEyes team and have their
+                                certificates, to make owning an NFT mean
+                                something other than the already existing
+                                reasons. No planting trees, no donations, no
+                                apes, no pixels, just👀.
                               </div>
-                              <div className="tab-pane butteyes-light-text" style={{ color: "black" }} id="link61">
-                              Every customer who makes a purchase during the public mint period will have reference codes, the number of which varies according to the version they have. These reference codes will act as a whitelist in the next releases. Diamond Tag version will be rewarded with 4 reference codes, Gold Tag version with 3, Silver Tag version with 2 and Bronze Tag version with 1.
+                              <div
+                                className="tab-pane butteyes-light-text"
+                                style={{ color: "black" }}
+                                id="link61"
+                              >
+                                Every customer who makes a purchase during the
+                                public mint period will have reference codes,
+                                the number of which varies according to the
+                                version they have. These reference codes will
+                                act as a whitelist in the next releases. Diamond
+                                Tag version will be rewarded with 4 reference
+                                codes, Gold Tag version with 3, Silver Tag
+                                version with 2 and Bronze Tag version with 1.
                               </div>
                             </div>
                           </div>

@@ -200,3 +200,9 @@ div {
 		background-position: 0% 50%;
 	}
 }
+
+.figure {
+  position: relative;
+  width: 360px; /* can be omitted for a regular non-lazy image */
+  max-width: 100%;
+}
